@@ -1,0 +1,161 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar
+{
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer
+{
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.img-skills
+{
+    width:50%;
+    margin:auto;
+}
+
+.img-projects
+{
+    width:100%;
+    margin:auto;
+    border:2px solid;
+}
+
+#myImage
+{
+    border-radius:100%;
+    width:100%;
+}
+
+.jumbotron
+{
+    background-color:white;
+    margin:auto;
+    text-align: center;
+}
+
+.name
+{
+    font-family: 'Asap', sans-serif;
+}
+
+.subheader
+{
+    font-family: 'Asap', sans-serif;
+    font-size:5em;
+}
+
+.subheader-2
+{
+    font-family: 'Asap', sans-serif;
+    font-size:2em;
+}
+.subheader-3
+{
+    font-family: 'Asap', sans-serif;
+    font-size:1.5em;
+}
+
+@media screen and (max-width: 1200px)
+{
+  .subheader
+  {
+      font-family: 'Asap', sans-serif;
+      font-size:3em;
+  }
+  .subheader-2
+  {
+      font-family: 'Asap', sans-serif;
+      font-size:1.5em;
+  }
+  .subheader-3
+  {
+      font-family: 'Asap', sans-serif;
+      font-size:1.25em;
+  }
+
+  #myImage
+  {
+      width:50%;
+  }
+}
+
+.row
+{
+    margin-bottom:5%;
+}
+
+.odd
+{
+    background-color:#EEEEEE;
+}
+
+.panel-heading  a:before
+{
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: center;
+   transition: all 0.5s;
+}
+
+.panel-heading.active a:before
+{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.jumbotron-font
+{
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/banner.jpg");
+
+  /* Set a specific height */
+  min-height: 450px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.test {
+  padding: 30px;
+  margin: 30px;
+
+  padding: 15px;
+  box-shadow: 0px 0px 5px 5px grey;
+  opacity:0.95;
+
+  background-color: #f8f8ff;
+
+}
+
+.testContact {
+  margin:auto;
+  width:65%;
+
+  margin-bottom: 30px;
+  padding: 15px;
+  box-shadow: 0px 0px 5px 5px grey;
+  opacity:0.95;
+  background-color: #f8f8ff
+}
+
+.callcard {
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 0px;
+}
